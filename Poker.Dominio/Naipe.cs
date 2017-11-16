@@ -1,6 +1,10 @@
 ﻿namespace Poker.Dominio
 {
-    public class Naipe
+    public enum Naipe
     {
+        Ouros,
+        Copas,
+        Espadas,
+        Paus
     }
 }

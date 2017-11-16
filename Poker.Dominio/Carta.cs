@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace Poker.Dominio
+﻿namespace Poker.Dominio
 {
     public class Carta
     {
-        public List<Naipe> Naipes { get; set; }
+        public Naipe Naipe { get; set; }
+        public Face Face { get; set; }
     }
 }
