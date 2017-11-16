@@ -2,15 +2,17 @@
 
 namespace Poker.Dominio
 {
-    public class Mesa // lugar para o jogador
+    public class Mesa
     {
         public List<Posicao> Posicoes { get; set; }
 
         public TipoJogo TipoJogo { get; set; }
 
         public Baralho Baralho { get; set; }
+
+        public void Embaralhar()
+        {
+            
+        }
     }
 }
-//carta
-//baralho - embaralhar
-//mãos

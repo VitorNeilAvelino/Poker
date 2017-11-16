@@ -31,7 +31,7 @@
   <Class Name="Poker.Dominio.Mesa" Collapsed="true">
     <Position X="4.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQ=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAACAAAAAAQ=</HashCode>
       <FileName>Mesa.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -42,7 +42,7 @@
       <Property Name="Posicoes" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Poker.Dominio.Posicao">
+  <Class Name="Poker.Dominio.Posicao" Collapsed="true">
     <Position X="1.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAA=</HashCode>
