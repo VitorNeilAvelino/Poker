@@ -17,33 +17,33 @@
       <FileName>Carta.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Face" />
       <Property Name="Naipe" />
+      <Property Name="Face" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Poker.Dominio.Jogador" Collapsed="true">
-    <Position X="7.75" Y="8.5" Width="1.5" />
+    <Position X="1.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Jogador.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Poker.Dominio.Mesa" Collapsed="true">
-    <Position X="7.75" Y="4.5" Width="1.5" />
+    <Position X="4.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQ=</HashCode>
       <FileName>Mesa.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Baralho" />
       <Property Name="TipoJogo" />
+      <Property Name="Baralho" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Posicoes" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Poker.Dominio.Posicao" Collapsed="true">
-    <Position X="7.75" Y="6.5" Width="1.5" />
+  <Class Name="Poker.Dominio.Posicao">
+    <Position X="1.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Posicao.cs</FileName>
@@ -53,21 +53,21 @@
     </ShowAsAssociation>
   </Class>
   <Enum Name="Poker.Dominio.Face" Collapsed="true">
-    <Position X="1.75" Y="2.5" Width="1.5" />
+    <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABAAFAAIAAAAgCAADAACAAAAAAAQBAAAgAAAAEAAAA=</HashCode>
       <FileName>Face.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Poker.Dominio.Naipe" Collapsed="true">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="1.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAQAEAAAAAAAEAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Naipe.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Poker.Dominio.TipoJogo" Collapsed="true">
-    <Position X="7.75" Y="2.5" Width="1.5" />
+    <Position X="4.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
       <FileName>TipoJogo.cs</FileName>
