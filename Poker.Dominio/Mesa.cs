@@ -4,6 +4,11 @@ namespace Poker.Dominio
 {
     public class Mesa
     {
+        public Mesa()
+        {
+            Baralho = new Baralho();
+        }
+
         public List<Posicao> Posicoes { get; set; }
 
         public TipoJogo TipoJogo { get; set; }
