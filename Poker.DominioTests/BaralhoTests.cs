@@ -7,7 +7,7 @@ namespace Poker.Dominio.Tests
     public class BaralhoTests
     {
         [TestMethod()]
-        public void BaralhoTest()
+        public void BaralhoMontadoCorretamenteTeste()
         {
             var baralho = new Baralho();
             var ouros = baralho.Cartas.Where(c => c.Naipe == Naipe.Ouros).ToList();

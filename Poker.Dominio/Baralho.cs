@@ -12,6 +12,8 @@ namespace Poker.Dominio
             Montar();
         }
 
+        public List<Carta> Cartas { get; set; }
+
         private void Montar()
         {
             foreach (var naipe in Enum.GetValues(typeof(Naipe)).Cast<Naipe>())
@@ -22,7 +24,5 @@ namespace Poker.Dominio
                 }
             }
         }
-
-        public List<Carta> Cartas { get; set; }
     }
 }

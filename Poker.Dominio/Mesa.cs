@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Poker.Dominio
 {
@@ -6,18 +8,27 @@ namespace Poker.Dominio
     {
         public Mesa()
         {
-            Baralho = new Baralho();
+            Monte = new Stack<Carta>();
+            Embaralhar();
         }
 
         public List<Posicao> Posicoes { get; set; }
 
         public TipoJogo TipoJogo { get; set; }
 
-        public Baralho Baralho { get; set; }
+        public Stack<Carta> Monte { get; set; }
 
-        public void Embaralhar()
+        private void Embaralhar()
         {
-            
+            var aleatorio = new Random(Guid.NewGuid().GetHashCode());
+            var sequencia = Enumerable.Range(0, 52).ToArray();
+            var embaralhado = sequencia.OrderBy(s => aleatorio.NextDouble());
+            var baralho = new Baralho();
+
+            foreach (var numero in embaralhado)
+            {
+                Monte.Push(baralho.Cartas[numero]);
+            }
         }
     }
 }
